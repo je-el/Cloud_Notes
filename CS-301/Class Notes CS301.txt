@@ -1,0 +1,49 @@
+mov rax, rdi
+
+cmp rax,7  ;compare=cmp
+jg outOfHere ;jmp=jump ;jg=jump if greater jl hump if less than
+;if (rax>7) goto outOfHere;
+
+imul rax,10
+
+outOfHere:
+	ret
+
+
+
+
+
+
+Int n=-3;
+//C++
+for(int I=0; I<n; I++) std::cout<<i<<"\n");
+
+//C-- (plain C)
+int I=0;
+Again:
+	if(!(I<n)) goto Done;
+	std::cout<<I<<"\n";
+	I++;
+	goto again;
+Done:
+
+Return I;
+
+
+Homework 0.3
+
+
+In C--:
+
+Std::string studentID;
+Int answer;
+
+Again:
+	cin>> studentID >> answer;
+	if (!cin) goto finished;
+	if (answer!= 42) goto no print;
+		std::cout<<student <<"is awesome";
+	noprint:
+goto again:
+Finished:
+Return;
